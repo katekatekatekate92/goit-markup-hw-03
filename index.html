@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header-border">
         <div class="container header-container">
             <a href="/" class="logo link">Web<span class="header-logo">Studio</span></a>
             <nav>
@@ -21,23 +21,21 @@
                     <li class="nav-item"><a href="" class="nav-element link">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="header-contacts">
-                <ul class="list contact-list">
-                    <li class="contact-item"><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="phone link">+38 096 111 11 11</a></li>
-                </ul>
-            </div>
+            <ul class="list contact-list header-contacts">
+                <li class="contact-item"><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="phone link">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
     <main>
-        <div class="upper-section">
-            <section class="container main-container">
+        <section class="upper-section">
+            <div class="container main-container">
                 <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="main-btn">Замовити послугу</button>
-            </section>
-        </div>
-        <div class="container">
-            <section>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <ul class="list benefits-list">
                     <li class="benefits-item">
                         <h3 class="titles">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -56,20 +54,21 @@
                         <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
-            </section>
-        </div>
-        <div class="container">
-            <section>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
                 <ul class="list do-list">
                     <li class="do-item"><img src="./images/img-1.jpg" alt="Робота за ноутбуком" width="370" height="294"></li>
                     <li class="do-item"><img src="./images/img-2.jpg" alt="Ноутбук та телефон" width="370" height="294"></li>
                     <li class="do-item"><img src="./images/img-3.jpg" alt="Екран з яскравим зображенням" width="370" height="294"></li>
                 </ul>
-            </section>
-        </div>
-        <div class="team-bcgr">
-            <section class="container team-container">
+            </div>
+        </section>
+        <section class="team-bcgr">
+            <div class="container team-container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="list team-list">
                     <li class="team-item">
@@ -93,8 +92,9 @@
                         <p class="team-dscrpt">UI Designer</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+        
     </main>
 
     <footer class="footer">

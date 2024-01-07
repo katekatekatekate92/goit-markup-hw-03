@@ -34,10 +34,12 @@ img {
     margin-right: auto;
     margin-left:auto;
 }
+.header-border {
+    border-bottom: 1px solid #ECECEC;
+}
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 .logo {
     display: block;
@@ -119,13 +121,13 @@ img {
     background-color: #2F303A;
 }
 .main-container {
-    text-align: center;
-    width: 696px;
     padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: center;
 }
 .main-title {
-    padding-top: 200px;
     margin-bottom: 30px;
+    width: 696px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
