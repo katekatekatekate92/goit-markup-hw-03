@@ -119,13 +119,15 @@ img {
 }
 .upper-section {
     background-color: #2F303A;
-}
-.main-container {
     padding-bottom: 200px;
     padding-top: 200px;
+}
+.main-container {
     text-align: center;
 }
 .main-title {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     width: 696px;
     font-size: 44px;
@@ -143,18 +145,22 @@ img {
     color: #FFFFFF;
     background-color: #2196F3;
 }
-.benefits-list {
-    display: flex;
+.benefits-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.benefits-list {
+    display: flex;
+}
 .benefits-item {
     margin-right: 30px;
+    width: 270px;
 }
 .benefits-item:last-child {
     margin-right: 0px;
 }
 .titles {
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
@@ -165,6 +171,9 @@ img {
     font-weight: 400;
     line-height: 1.7;
     color: var(--text-color);
+}
+.do-section {
+    padding-bottom: 94px;
 }
 .section-title {
     margin-bottom: 50px;
@@ -177,7 +186,6 @@ img {
 .do-list {
     display: flex;
     align-items: center;
-    padding-bottom: 94px;
 }
 .do-item {
     margin-right: 30px;
@@ -186,15 +194,13 @@ img {
     margin-right: 0px;
 }
 
-.team-container .section-title {
-    padding-top: 94px;
-}
 .team-bcgr {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-list {
     display: flex;
-    padding-bottom: 94px;
 }
 .team-item {
     margin-right: 30px;
@@ -205,7 +211,8 @@ img {
     margin-right: 0px;
 }
 .team-card {
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-title {
     margin-bottom: 10px;
@@ -215,7 +222,6 @@ img {
     color: var(--main-color);
 }
 .team-dscrpt {
-    padding-bottom: 30px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
