@@ -229,11 +229,13 @@ img {
     color: var(--text-color);
 }
 .footer-container .logo {
-    padding: 60px 0 0 0;
     margin-bottom: 28px;
+    padding: 0;
 }
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo {
     color: #FFFFFF;
@@ -262,7 +264,10 @@ img {
     color: var(--accent-color);
 }
 .footer-list {
-    padding-bottom: 60px;
+    margin-bottom: 12px;
+}
+.footer-list:last-child {
+    margin-bottom: 0;
 }
 .filtr-section {
     padding-top: 94px;
@@ -271,7 +276,7 @@ img {
 .filtr-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .filtr-item {
     margin-right: 8px;
@@ -316,15 +321,14 @@ img {
     margin-right: 0;
 }
 .card-image {
-    margin-bottom: 30px;
 }
 .card-text {
     border: 1px solid #EEEEEE;
     border-top: 0;
-    padding-left: 24px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
 }
 .filtr-title {
+    margin-bottom: 4px;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
